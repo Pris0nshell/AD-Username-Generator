@@ -20,4 +20,7 @@ johnsmith
 ```
 De-duplicates output
 
+Usage:
+```
 python3 AD-Username-Generator.py -i input.txt -o usernames.txt
+```
