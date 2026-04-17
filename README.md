@@ -1,5 +1,10 @@
 A lightweight Python tool to generate realistic Active Directory username wordlists from names and/or email addresses for use with tools like Kerbrute.
 
+Usage:
+```
+python3 AD-Username-Generator.py -i input.txt -o usernames.txt
+```
+
 Supports multiple input formats:
 ```
 John Smith
@@ -20,7 +25,4 @@ johnsmith
 ```
 De-duplicates output
 
-Usage:
-```
-python3 AD-Username-Generator.py -i input.txt -o usernames.txt
-```
+
